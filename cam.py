@@ -10,10 +10,6 @@ from PIL import Image
 
 
 def main():
-    #model: pytorch resnet model
-    #dataset_test: pytorch dataset object
-    #transform: defined torchvision transform instance
-
     #Instructions:
     # 1. train your model
     # 2. set your model to eval mode after training
@@ -22,6 +18,12 @@ def main():
     #note:
     # getitem method of pytorch dataset must return numpy array image and label tensor must be onehot-encoded
 
+    #parameters of display_cam fuction
+    #model: pytorch resnet model
+    #dataset_test: pytorch dataset object
+    #transform: defined torchvision transform instance
+    #target_list: class category list . e.g. If your model classify img to either dog or cat, target_list is ['dog', 'cat']
+    
     # display_cam(model, dataset_test, target_list, transform)
     return
 

@@ -29,5 +29,5 @@ This function computes the class activation map for the target class using the f
 `display_cam()`
 This function generates CAM visualizations for a given dataset of test images. It applies the heatmap overlay to each image and saves the resulting visualization.
 
-## Refernce
+## Reference
 - http://www.snappishproductions.com/blog/2018/01/03/class-activation-mapping-in-pytorch.html.html
